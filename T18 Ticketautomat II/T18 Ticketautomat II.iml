@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager">
-    <output url="file://$MODULE_DIR$/build" />
-    <output-test url="file://$MODULE_DIR$/build" />
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/T40 Primzahlen/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/T18 Ticketautomat II/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/T18 Ticketautomat II/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/T40 Primzahlen/test" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

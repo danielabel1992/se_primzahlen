@@ -14,7 +14,7 @@ public class Application {
 
     public static void main(String... args) {
 
-        int range = 1000000;
+        int range = 100;
         IStrategy strategy = new Prime1();
 //        IStrategy strategy = new Prime2();
 //        IStrategy strategy = new Prime3();

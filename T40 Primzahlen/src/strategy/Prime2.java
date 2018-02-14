@@ -1,7 +1,10 @@
+package strategy;
+
+import Decorator.Prime;
 
 import java.util.ArrayList;
 
-public class Prime2 implements IStrategy {
+public class Prime2 extends Prime implements IStrategy {
 
     @Override
     public ArrayList<Integer> primes(int range) {

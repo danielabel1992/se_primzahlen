@@ -1,3 +1,5 @@
+import strategy.IStrategy;
+
 import java.util.ArrayList;
 
 public class Context {
@@ -7,7 +9,7 @@ public class Context {
         this.strategy = strategy;
     }
 
-    public ArrayList<Integer> executeStrategy(int range) {
+    public ArrayList<Integer> primes(int range) {
         return strategy.primes(range);
     }
 }

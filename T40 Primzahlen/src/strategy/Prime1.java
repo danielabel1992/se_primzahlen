@@ -1,7 +1,10 @@
+package strategy;
+
+import Decorator.Prime;
 
 import java.util.ArrayList;
 
-public class Prime1 implements IStrategy {
+public class Prime1 extends Prime implements IStrategy {
 
     public ArrayList<Integer> primes(int range) {
         ArrayList<Integer> primeNumbers = new ArrayList<Integer>();
